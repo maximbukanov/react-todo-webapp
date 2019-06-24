@@ -1,0 +1,14 @@
+import React, { Component } from 'react';
+import './app-header.css';
+
+export default class AppHeader extends Component {
+    render() {
+        const { todoCount, doneCount } = this.props;
+        return (
+            <div className="app-header d-flex">
+                <h1>Hello, World!</h1>
+                <h2>{todoCount} more to go, {doneCount} done!</h2>
+            </div>
+        );
+    }
+}

@@ -1,0 +1,12 @@
+.todo-list-item {
+    color: #000000;
+}
+
+.todo-list-item.done span {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important span {
+    color: steelblue;
+    font-weight: 'bold';
+}
